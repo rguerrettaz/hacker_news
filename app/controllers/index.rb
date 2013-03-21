@@ -1,4 +1,5 @@
 get '/' do
-  # Look in app/views/index.erb
+  @posts = Post.includes(:comments, :votes).all
   erb :index
 end
+

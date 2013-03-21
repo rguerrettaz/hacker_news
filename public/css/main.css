@@ -1,0 +1,64 @@
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.container {
+	position: relative;
+	width: 900px;
+	margin: 8px auto;
+}
+
+header {
+	background: #F60;
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+
+header a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 5px 10px;
+	float: left;
+	font-size: 13px;
+}
+
+header a.logo {
+	font-weight: bold;
+}
+
+nav {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav .left a {
+	border-right: 1px solid black;
+}
+
+nav .left a:last-child {
+	border-right: none;
+}
+
+.content {
+	background: #F6F6EF;
+	float: left;
+	width: 100%;
+	min-height: 500px;
+	font-size: 13px;
+}
+
+ol.posts span.details {
+	font-size: 10px;
+	color: #666;
+}
+
+ol.posts a {
+	text-decoration: none;
+	color: #000;
+}
